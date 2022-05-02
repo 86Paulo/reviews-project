@@ -241,6 +241,11 @@ main {
 #info {
   margin-bottom: 0.75rem;
 }
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
 .prev-btn,
 .next-btn {
   color: var(--clr-primary-7);

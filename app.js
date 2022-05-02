@@ -85,4 +85,9 @@ prevBtn.addEventListener("click", function() {
 
 // show random person
 // add event listener to random-btn
-//generate random item from the array
+randomBtn.addEventListener("click", function() {
+  //generate random item from the array
+  let currentItem =  Math.floor(Math.random() * reviews.length);
+  //show that item in showPerson
+  showPerson(currentItem);
+})
